@@ -1,0 +1,106 @@
+/* body{
+    margin-top: auto;
+   font-family:sans-serif;
+    background-color: rgb(248, 242, 243);
+    color: rgb(84, 77, 65);
+}
+
+.container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  
+    justify-content: space-around;
+    align-items: center;
+
+}
+.admin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:400px;
+    box-sizing: border-box;
+    box-shadow: 16px 23px 19px -3px rgba(0, 0, 0, 0.1);
+    border: none;
+    height: fit-content;
+   
+    background-color: rgb(112, 199, 223);
+    padding: 30px;
+    color: rgb(255, 255, 255);
+
+}
+.headings{
+    padding: 3px;
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: x-large;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:fit-content;
+    box-sizing: border-box;
+    box-shadow: 16px 23px 19px -3px rgba(0,0,0,0.1);
+    border: none ;
+    
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 30px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=League+Spartan:wght@300;400;500&family=Montserrat:ital,wght@0,400;0,500;0,700;1,900&display=swap');
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Agdasima', sans-serif;
+}
+.container,
+.row,
+.h2 {
+    text-align: center;
+}
+
+.login-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.login-form-1 {
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-1 h3 {
+    text-align: center;
+    color: #333;
+}
+
+.login-container form {
+    padding: 10%;
+}
+
+.btnSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form-1 .btnSubmit {
+    font-weight: 600;
+    color: #fff;
+    background-color: #2F3C7E;
+}
+
+
+
+.login-form-1 .ForgetPwd {
+    /* background-color: #2F3C7E;   */
+    color: #2F3C7E;
+    background-color: white;
+      font-weight: 600;
+    text-decoration: none;
+}
+

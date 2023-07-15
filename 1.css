@@ -1,0 +1,7 @@
+.class{
+    box-sizing: border-box;
+    border: solid red;
+    color: aqua;
+    height: 400px;
+    width: 400px;
+}
